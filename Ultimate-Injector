@@ -33,8 +33,8 @@
     mainTitle.innerText = '🔥 R PLUS INJECTION 🔥';
     mainTitle.style.margin = '0';
     mainTitle.style.fontSize = '18px';
-    mainTitle.style.fontWeight = '900';
-    mainTitle.style.background = 'linear-gradient(135deg, #ff4500, #ffa500, #ffff00)';
+   mainTitle.style.fontWeight = '900';
+    mainTitle.style.background = `linear-gradient(135deg, #ff4500, #ffa500, #ffff00)`;
     mainTitle.style.webkitBackgroundClip = 'text';
     mainTitle.style.webkitTextFillColor = 'transparent';
 
@@ -42,7 +42,7 @@
     subTitle.innerText = 'Mod Menu Injector';
     subTitle.style.fontSize = '11px';
     subTitle.style.color = '#ffb066';
-    subTitle.style.textTransform = 'uppercase';
+    subtitle.style.textTransform = 'uppercase';
     subTitle.style.letterSpacing = '1px';
     subTitle.style.marginTop = '2px';
 
@@ -84,19 +84,19 @@
         btn.style.borderRadius = '6px';
        btn.style.background = `linear-gradient(115deg, ${gradientStart}, ${gradientEnd})`;
         btn.style.color = '#ffffff';
-        btn.style.fontWeight = 'bold';
+              btn.style.fontWeight = 'bold';
         btn.style.fontSize = '14px';
         btn.style.cursor = 'pointer';
-        btn.style.boxShadow = '0 2px 5px rgba(0,0,0,0.5)';
+               btn.style.boxShadow = '0 2px 5px rgba(0,0,0,0.5)';
         btn.style.transition = 'transform 0.1s, box-shadow 0.2s';
         
         btn.onmouseover = () => {
             btn.style.transform = 'scale(1.02)';
-            btn.style.boxShadow = `0 0 10px ${gradientEnd}`;
+                        btn.style.boxShadow = `0 0 10px ${gradientEnd}`;
         };
         btn.onmouseout = () => {
             btn.style.transform = 'scale(1)';
-            btn.style.boxShadow = '0 2px 5px rgba(0,0,0,0.5)';
+                        btn.style.boxShadow = '0 2px 5px rgba(0,0,0,0.5)';
         };
         btn.onclick = onClickFunction;
         
@@ -114,7 +114,7 @@
         } catch(e) { alert('Blooket Script Failure!'); console.error(e); }
     }
 
-    function runGimkit() { 
+       function runGimkit() { 
         try {
             alert('Gimkit script activated!'); 
             
@@ -159,8 +159,8 @@
     }
 
     const closeBtn = createFireButton('Minimize Menu', '#34495e', '#2c3e50', minimizeMenu);
-    closeBtn.style.marginTop = '15px';
-    closeBtn.style.fontSize = '12px';
+       closeBtn.style.marginTop = '15px';
+       closeBtn.style.fontSize = '12px';
     menu.appendChild(closeBtn);
 
     minBall.onclick = maximizeMenu;
@@ -173,25 +173,25 @@
     menu.style.top = '20px';
 
     /* 10. Draggable Physics Management */
-    function makeElementDraggable(elm, isBall) {
+   function makeElementDraggable(elm, isBall) {
         let isDragging = false;
         let offsetX, offsetY;
 
-        elm.addEventListener('mousedown', (e) => {
+                elm.addEventListener('mousedown', (e) => {
             if (e.target.tagName === 'BUTTON') return;
             isDragging = true;
             offsetX = e.clientX - elm.offsetLeft;
             offsetY = e.clientY - elm.offsetTop;
         });
 
-        document.addEventListener('mousemove', (e) => {
+            document.addEventListener('mousemove', (e) => {
             if (!isDragging) return;
             elm.style.left = (e.clientX - offsetX) + 'px';
             elm.style.top = (e.clientY - offsetY) + 'px';
             if (!isBall) elm.style.right = 'auto';
         });
 
-        document.body.addEventListener('mouseup', () => {
+           document.body.addEventListener('mouseup', () => {
             isDragging = false;
         });
     }
