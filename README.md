@@ -1,4 +1,6 @@
-# <p align="center"><img src="https://demolab.com" alt="🔥 R+ Injector Typing Loop 🔥" /></p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=7B1FA2&size=28&center=true&vCenter=true&width=900&lines=🎮+Rplus+injector+Ultimate+Tool+for+Players+to+have+fun;🎯+Auto-Answer+%2B+Money+Farming;💯+100%25+Free+%7C+No+Limits;⚡+Updated+for+2026+and+2027">
+</p>
 
 <p align="center">
   <img src="https://shields.io" alt="Stars">
