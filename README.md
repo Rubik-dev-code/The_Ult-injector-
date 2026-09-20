@@ -1,57 +1,10 @@
-# 🔥 R PLUS INJECTION 🔥
-> The ultimate, lightweight all-in-one Mod Menu Injector bar for school gaming platforms.
+# <p align="center"><img src="https://demolab.com" alt="🔥 R+ Injector Typing Loop 🔥" /></p>
 
 <p align="center">
   <img src="https://shields.io" alt="Stars">
   <img src="https://shields.io" alt="Forks">
   <img src="https://shields.io" alt="License">
 </p>
-
-# <p align="center"><span style="color: #ff4500; font-family: 'Segoe UI', sans-serif;">🔥 <span id="typewriter"></span> 🔥</span></p>
-
-<script>
-    const words = ["R+ injector", "made by Rubik-Dev-code"];
-    let i = 0;
-    let timer;
-
-    function typingEffect() {
-        let word = words[i].split("");
-        var loopTyping = function() {
-            if (word.length > 0) {
-                document.getElementById('typewriter').innerHTML += word.shift();
-            } else {
-                setTimeout(deletingEffect, 2000);
-                return false;
-            }
-            timer = setTimeout(loopTyping, 150);
-        };
-        loopTyping();
-    }
-
-    function deletingEffect() {
-        let word = words[i].split("");
-        var loopDeleting = function() {
-            if (word.length > 0) {
-                word.pop();
-                document.getElementById('typewriter').innerHTML = word.join("");
-            } else {
-                if (words.length > (i + 1)) {
-                    i++;
-                } else {
-                    i = 0;
-                }
-                setTimeout(typingEffect, 500);
-                return false;
-            }
-            timer = setTimeout(loopDeleting, 100);
-        };
-        loopDeleting();
-    }
-
-    // Initialize effect on load
-    setTimeout(typingEffect, 500);
-</script>
-
 
 ---
 
@@ -66,7 +19,7 @@
 ## 🎮 Supported Game Modules
 * 🟦 **Blooket Hack:** Injects a massive central GUI dashboard with global scripts, auto-answer, and market tokens. made by 05Konzz
 * 🟧 **Gimkit Hack (Gimmick Proxy):** Powered by VillainsRule. If bookmarks are blocked or failing, use our unblocked proxy server framework for unfair advantages straight on your device without devtools!
-  * 🚀 **[Click Here to Access Gimmick Proxy](https://gim.villainsrule.xyz/)**
+  * 🚀 **[Click Here to Access Gimmick Proxy](https://villainsrule.xyz)**
 * 🟥 **Kahoot Hack:** *Coming Soon / Under Maintenance.*
 
 ---
@@ -98,4 +51,5 @@
 
 ## 🤝 Contributing & Support
 If you find a broken feature or want to suggest an upgrade, feel free to open an **Issue** or submit a **Pull Request**! 
+
 
