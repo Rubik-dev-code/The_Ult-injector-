@@ -20,7 +20,7 @@
 
 ## 🎮 Supported Game Modules
 * 🟦 **Blooket Hack:** Injects a massive central GUI dashboard with global scripts, auto-answer, and market tokens. made by 05Konzz
-* 🟧 **Gimkit Hack (Gimmick Proxy):** Powered by VillainsRule. If bookmarks are blocked or failing, use our unblocked proxy server framework for unfair advantages straight on your device without devtools!
+* 🟧 **Gimkit Hack (Gimmick Proxy):** Powered by VillainsRule. If bookmarks are blocked or failing, use our unblocked proxy server framework for unfair advantages straight on your device without devtools! made by lazysquid
   * 🚀 **[Click Here to Access Gimmick Proxy](https://gim.villainsrule.xyz/)**
 * 🟥 **Kahoot Hack:** *Coming Soon / Under Maintenance.*
 
