@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FF5F15&size=28&center=true&vCenter=true&width=900&lines=🔥+Rplus+injector+Ultimate+Tool+for+Players+to+have+fun+🔥🔥;🎯+Made+By+Rubik-dev-code+%7C+Easy+to+use!;💯+100%25+Free+%7C+No+Limits;⚡+Updated+for+2026+and+2027">
+  <img src="https://readme-typing-svg.herokuapp.com?color=FF5F15&size=28&center=true&vCenter=true&width=900&lines=🔥+Rplus+injector+Ultimate+Tool+for+Players+to+have+fun+🔥;🎯+Made+By+Rubik-dev-code+%7C+Easy+to+use!;💯+100%25+Free+%7C+No+Limits;⚡+Updated+for+2026+and+2027">
 </p>
 
 <p align="center">
